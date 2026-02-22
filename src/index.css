@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(
+    circle at top,
+    #fff9d6 0%,
+    #ffe27a 35%,
+    #ffc857 65%,
+    #ffb347 100%
+  );
+  color: #7c2d12;
+}
